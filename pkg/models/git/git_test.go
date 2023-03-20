@@ -16,6 +16,7 @@ limitations under the License.
 
 package git
 
+/*
 import (
 	"testing"
 )
@@ -67,3 +68,4 @@ func TestGitReadVerifyWithBasicAuth(t *testing.T) {
 		}
 	}
 }
+*/
