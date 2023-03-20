@@ -17,6 +17,14 @@ limitations under the License.
 package config
 
 /*
+import (
+	"kubesphere.io/kubesphere/pkg/simple/client/devops/jenkins"
+	"kubesphere.io/kubesphere/pkg/simple/client/k8s"
+	"kubesphere.io/kubesphere/pkg/simple/client/ldap"
+	"kubesphere.io/kubesphere/pkg/simple/client/servicemesh"
+	"kubesphere.io/kubesphere/pkg/simple/client/sonarqube"
+)
+
 func newTestConfig() (*Config, error) {
 	var conf = &Config{
 		DevopsOptions: &jenkins.Options{
